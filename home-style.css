@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    
+    background-color: #007bff;
+}
+section
+{
+
+}
+section > button
+{
+    display: flex;
+    position: relative;
+    align-self: center;
+    background-color: white;
+    color: #007bff;
+    padding: 1.5rem 4rem;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid white;
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+section > button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section > button > i 
+{
+    position: relative;
+    top: 3px;
+    left: 10px;
+    /* transform: translate(1px,30px); */
+}
